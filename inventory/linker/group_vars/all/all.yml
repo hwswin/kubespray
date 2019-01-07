@@ -47,11 +47,10 @@ bin_dir: /usr/local/bin
 #cloud_provider:
 
 ## Set these proxy values in order to update package manager and docker daemon to use proxies
-#http_proxy: ""
-#https_proxy: ""
-
+http_proxy: "http://192.168.0.17:8118"
+https_proxy: "http://192.168.0.17:8118"
 ## Refer to roles/kubespray-defaults/defaults/main.yml before modifying no_proxy
-#no_proxy: ""
+no_proxy: "localhost,127.0.0.1,192.168.0.17,harbor.linkerplus.com"
 
 ## Some problems may occur when downloading files over https proxy due to ansible bug
 ## https://github.com/ansible/ansible/issues/32750. Set this variable to False to disable
