@@ -24,4 +24,3 @@
 
 # Advertise Cluster IPs
 # calico_advertise_cluster_ips: true
-calico_endpoint_to_host_action: "ACCEPT"

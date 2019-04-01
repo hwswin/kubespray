@@ -50,7 +50,7 @@ nginx_kube_apiserver_port: 6443
 http_proxy: "http://192.168.0.17:8118"
 https_proxy: "http://192.168.0.17:8118"
 ## Refer to roles/kubespray-defaults/defaults/main.yml before modifying no_proxy
-no_proxy: "localhost,127.0.0.1,192.168.0.17,harbor.linkerplus.com"
+no_proxy: "localhost,127.0.0.1,192.168.0.17,harbor.linkerplus.com,registry-platform.linkerplus.com,192.168.0.24,192.168.0.40,192.168.0.68,192.168.0.93,192.168.0.113,192.168.0.114,192.168.0.124,192.168.0.137,192.168.0.170,192.168.0.179"
 #http_proxy: ""
 #https_proxy: ""
 
